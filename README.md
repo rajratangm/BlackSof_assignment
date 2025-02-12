@@ -14,7 +14,7 @@ This project is a clone of Supreme Group built using React.js, TypeScript, and T
 ## Project Setup Instructions
 
 - Clone the repository:
-- 
+  
 - Navigate to the project directory:
 
 - cd supreme-group-clone
