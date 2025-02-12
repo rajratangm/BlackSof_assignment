@@ -7,12 +7,14 @@ This project is a clone of Supreme Group built using React.js, TypeScript, and T
 - Frontend: React.js, TypeScript
 - Styling: Tailwind CSS
 
+## Deployment Link
+- deployed on versel
+- https://black-sof-assignment-alpha.vercel.app/
+
 ## Project Setup Instructions
 
 - Clone the repository:
-
-- git clone https://github.com/yourusername/supreme-group-clone.git
-
+- 
 - Navigate to the project directory:
 
 - cd supreme-group-clone
