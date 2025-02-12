@@ -1,0 +1,30 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+    --primary: 201 100% 17%;
+    --primary-foreground: 210 40% 98%;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Inter', sans-serif;
+  }
+
+  .vertical-slider {
+    @apply relative h-[400px] overflow-hidden;
+  }
+
+  .slide {
+    @apply absolute w-full transition-transform duration-500 ease-in-out;
+  }
+
+  .form-input {
+    @apply w-full p-2 border-b border-white/20 bg-transparent text-white placeholder:text-white/60 focus:outline-none focus:border-white;
+  }
+}
